@@ -77,7 +77,7 @@ Array.from(buttons).forEach((button) => {
         const buttonSound = new Audio('minus.mp3');
         buttonSound.play();
       }
-      else if(t=='X'){
+      else if(t=='*'){
         const buttonSound = new Audio('into.mp3');
         buttonSound.play();
       }
